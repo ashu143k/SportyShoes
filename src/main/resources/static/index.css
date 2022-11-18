@@ -1,0 +1,434 @@
+
+body{
+	 font-family: 'poppins',sans-serif;
+    background: #fad787;
+}
+.headerDiv{
+	background: #ffffff96;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+}
+.LogoDiv{
+    position:relative;
+    left:43px;
+   }
+
+nav a{
+    position: relative;
+    left:1075px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 30px;
+}
+ nav ul li a{
+    text-decoration: none;
+    color: #3f51b5;
+ }
+ .InnerContainer{
+    background-color: #fdefce;
+    padding: 50px;
+    border-radius: 25px;
+    height: 250px;
+    width: 80%;
+    position: relative;
+    top: 100px;
+    left: 7%;
+
+ }
+ .InnerContainer h2{
+font-size: 45px;
+    color: #3f51b5;
+    margin-top: 0px; 
+ }
+ .InnerContainer a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #72b3e6;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 6px;
+ }
+ .user-box{
+float: right;
+    position: relative;
+    bottom: 195px;
+    left: 65px;
+ }
+ .HeaderButtons
+ {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #72b3e6;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 6px;
+   border: none;
+    }
+.headerContent{
+        float: right;
+    right: 50px;
+    position: relative;
+    bottom: 25px;
+    }
+    .AdminLoginDiv{
+width: 55%;
+    align-items: center;
+    background: #fdefcefa;
+    border-radius: 15px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 160px;
+    left: 22%;
+    height: 400px;
+    }
+ .FormInputText{
+    font-family: sans-serif;
+    height: 50px;
+    background: white;
+    transition: all .2s linear;
+    width: 300px;
+    text-align: center;
+    font-size: inherit;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 1px solid;
+ }
+ .EmailInputTextDiv{
+    width: 80px;
+    position: relative;
+    left: 31%;
+    top: 60px;
+ }
+ .PasswordInputTextDiv{
+    width: 80px;
+    position: relative;
+    left: 31%;
+    top: 75px;
+ }
+ .textDiv{
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+.SubmitButtonInputClass{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #72b3e6;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 6px;
+    width: 190px;
+    border: 0px;
+}
+.SubmitInputDiv{
+	
+    width: 70px;
+    position: relative;
+    left: 39%;
+    top: 50px;
+}
+.LogoImage{
+	
+    width: 150px;
+    height: 125px;
+}
+.shoesLogoImage{
+width: 650px;
+}
+.closeButtonDiv{
+top: 2px;
+    float: right;
+    position: relative;
+    right: 20px;
+}
+#closeButtonadminDiv{
+	 height: 24px;
+}
+.AdminDiv{
+    width: 100%;
+    align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    background-color: #e7e7e700;
+    height: 100vh;
+}
+.sidenav {
+    margin-top: 85px;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/*
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fad787;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}*/
+
+
+#main {
+margin-left: 250px;
+    
+    height: 500px;
+}
+
+.topnav {
+overflow: hidden;
+    background-color: #333;
+    height: 85px;
+}
+.topnav h2{
+    font-size: 1.75rem;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 44%;
+}
+#productDetailsTableId th tr{
+	height : 30px;
+}
+.style-2{
+	overflow-y: scroll;
+	 height: 500px;
+}
+.style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #333333;
+}
+
+a:active {
+  color: blue;
+}
+.btn {
+  width : 240px;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top :5px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+.changePasswordButton{
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    overflow: visible;
+    float: right;
+    right: 15px;
+    bottom: 155px;
+}
+#myInput {
+  background-image: url('/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.SelectFilterDiv{
+    float: right;
+    right: 10px;
+    top: 3px;
+    position: relative;
+}
+.updateDiv{
+    padding-top: 30px;
+    text-align: center;
+    width: 34%;
+    background: #fdefcefa;
+    border-radius: 15px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 85px;
+    left: 34%;
+    height: 400px;
+}
+.addNewProductButtonClass{
+	width: 250px;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    overflow: visible;
+}
+.addNewProductButtonDiv{
+	width: 250px;
+    position: relative;
+    left: 5%;
+    top:10px;
+}
+.addNewProductDiv{
+	    padding-top: 30px;
+    text-align: center;
+    width: 34%;
+    background: #fdefcefa;
+    border-radius: 15px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 85px;
+    left: 34%;
+    height: 400px;
+}
+.ProductCategories{
+	position: relative;
+    height: 50px;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 50%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    text-align: center;
+    bottom: 50px;
+}
+.newProductNameInput{
+	position: relative;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.newProductPricecInput{
+	position: relative;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+#addingNewProductButtonId{
+    width: 60%;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    top: 75px;
+}
+.Filter{
+height: 40px;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    text-align: center;
+    width: 160px;
+}
+.changePasswordDiv{
+	width: 55%;
+    align-items: center;
+    background: #fdefcefa;
+    border-radius: 15px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 160px;
+    left: 22%;
+    height: 400px;
+}
+.SubmitNewPasswordButtonInputClass{
+	display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #72b3e6;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin-top: 50px;
+    border-radius: 6px;
+    width: 220px;
+    border: 0px;
+}
+.ChangePasswordSubmitInputDiv{
+    width: 100px;
+    position: relative;
+    left: 35%;
+    top: 30px;
+}
+#newAdminPassword{
+    position: relative;
+    bottom: 20px;
+}
+#oldAdminPassword {
+    position: relative;
+    bottom: 30px;
+}
+#invaildUserIdPasswordDisplayDiv{
+	    text-align: center;
+    position: relative;
+    bottom: 22px;
+}
+#closeButtonUpdateProductDiv{
+	    float: right;
+    position: relative;
+    right: 24px;
+    bottom: 21px;
+}
+.dashboardLogoDiv{
+	position: relative;
+    left: 43px;
+    bottom: 10px;
+}
